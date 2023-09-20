@@ -10,7 +10,7 @@ def get_user_by_id(user_list, user_id):
     Returns:
     - dict: Das Dictionary des Benutzers mit der angegebenen ID. Wenn kein Benutzer gefunden wird, gibt die Funktion None zurück.
     """
-    pass
+    ...
 
 
 if __name__ == '__main__':
