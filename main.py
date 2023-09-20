@@ -1,12 +1,25 @@
-def calculate():
+def get_user_by_id(user_list, user_id):
     """
-    calculates the total
-    :return: None
+    Gibt das Benutzer-Dictionary zurück, das der angegebenen ID entspricht.
+    Verwenden Sie eine Generator-Expression und die Funktion next().
+
+    Args:
+    - user_id (int): Die ID des gesuchten Benutzers.
+    - user_list (list): Die Liste der Benutzer-Dictionarys.
+
+    Returns:
+    - dict: Das Dictionary des Benutzers mit der angegebenen ID. Wenn kein Benutzer gefunden wird, gibt die Funktion None zurück.
     """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+    pass
 
 
 if __name__ == '__main__':
-    calculate()
+    users = [
+        {'id': 1, 'name': 'Alice'},
+        {'id': 2, 'name': 'Bob'},
+        {'id': 3, 'name': 'Charlie'},
+        {'id': 4, 'name': 'David'}
+    ]
+
+    # Testen Sie get_user_by_id
+    print(get_user_by_id(users,3))
