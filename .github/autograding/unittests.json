@@ -1,0 +1,26 @@
+[
+  {
+    "name": "test_existing_id",
+    "function": "test_existing_id",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_non_existing_id",
+    "function": "test_non_existing_id",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_first_id",
+    "function": "test_first_id",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_last_id",
+    "function": "test_last_id",
+    "timeout": 10,
+    "points": 1
+  }
+]
