@@ -18,8 +18,8 @@ if __name__ == '__main__':
         {'id': 1, 'name': 'Alice'},
         {'id': 2, 'name': 'Bob'},
         {'id': 3, 'name': 'Charlie'},
-        {'id': 4, 'name': 'David'}
+        {'id': 4, 'name': 'David'},
     ]
 
     # Testen Sie get_user_by_id
-    print(get_user_by_id(users,3))
+    print(get_user_by_id(users, 3))
