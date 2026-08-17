@@ -1,3 +1,8 @@
+"""Filtern mit Generator Expressions.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/generatorexpressions
+"""
+
 def get_user_by_id(user_list, user_id):
     """
     Gibt das Benutzer-Dictionary zurück, das der angegebenen ID entspricht.
