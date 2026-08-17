@@ -1,3 +1,8 @@
+"""Filtern mit Generator Expressions.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/generatorexpressions
+"""
+
 def get_user_by_id(user_list, user_id):
     """
     Gibt das Benutzer-Dictionary zurück, das der angegebenen ID entspricht.
@@ -8,7 +13,8 @@ def get_user_by_id(user_list, user_id):
     - user_list (list): Die Liste der Benutzer-Dictionarys.
 
     Returns:
-    - dict: Das Dictionary des Benutzers mit der angegebenen ID. Wenn kein Benutzer gefunden wird, gibt die Funktion None zurück.
+    - dict: Das Dictionary des Benutzers mit der angegebenen ID. Wenn kein Benutzer gefunden wird, gibt die Funktion
+    None zurück.
     """
     return next((user for user in user_list if user['id'] == user_id), None)
 
