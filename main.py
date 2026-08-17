@@ -13,7 +13,8 @@ def get_user_by_id(user_list, user_id):
     - user_list (list): Die Liste der Benutzer-Dictionarys.
 
     Returns:
-    - dict: Das Dictionary des Benutzers mit der angegebenen ID. Wenn kein Benutzer gefunden wird, gibt die Funktion None zurück.
+    - dict: Das Dictionary des Benutzers mit der angegebenen ID. Wenn kein Benutzer gefunden wird, gibt die Funktion
+    None zurück.
     """
     ...
 
